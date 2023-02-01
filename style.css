@@ -91,6 +91,11 @@ h3 {
   left: 13.85rem;
   bottom: 2.6rem;
 }
+.form button:hover{
+  background-color: lightgray;
+  cursor: pointer;
+  color: #2d9cdb;
+}
 .services {
   width: 75%;
   margin: 10px 0 0 40px;
@@ -153,12 +158,13 @@ h3 {
   width: 120px;
   font-size: 1rem;
   border-radius: 15px;
-  background-color: #f2f2f2;
-  color: black;
-}
-.start:hover {
   color: white;
   background-color: #2d9cdb;
+  cursor: pointer;
+}
+.start:hover {
+  background-color: #f2f2f2;
+  color: black;
 }
 .team {
   width: 75%;
@@ -287,7 +293,7 @@ h3 {
     width: 80%;
     font-size: 1.5rem;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
   }
   .header img {
     width: 110%;
@@ -295,7 +301,7 @@ h3 {
     margin-left: 3rem;
   }
   .header-text {
-    margin: 10px;
+    margin: 0 10px 10px 10px;
   }
   .header p:last-of-type {
     font-size: 1.5rem;
@@ -312,6 +318,10 @@ h3 {
     padding: 15px;
     font-size: 1.3rem;
   }
+  .form label{
+    width: 40%;
+    margin-top: 10px;
+  }
   .form button {
     position: relative;
     top: 0;
@@ -319,20 +329,50 @@ h3 {
     bottom: 0;
     left: 0;
     margin: 0 0 0 20px;
-    padding: 10px;
+    padding: 10px 15px 10px 15px;
     font-size: 1.5rem;
     height: 60px;
-    width: 100px;
+    width: 120px;
+  }
+  #service{
+    text-align: center;
+    font-size: 3rem;
+    margin: 30px 0 0 6rem;
   }
   .services {
+    font-size: 1.5rem;
     flex-direction: row;
     height: 30%;
     width: 80%;
+    padding-left: 4rem;
+  }
+  .service-text{
+    font-size: 1.2rem;
+  }
+  .start{
+    font-size: 1.3rem;
+    width: max-content;
+    width: max-content;
+    height: max-content;
+    padding: 15px;
+  }
+  .ui-ux .icon, .front-end .icon, .back-end .icon{
+    width: min-content;
+    height: min-content;
+    text-align: center;
+    padding: 20px;
+  }
+  #work{
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 4rem 0 4rem 8rem;
   }
   .demo {
     width: 80%;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
+    margin-left: 8rem;
+    font-size: 1.6rem;
   }
   .demo img {
     width: 100%;
@@ -345,14 +385,49 @@ h3 {
   .juice {
     margin-left: 2rem;
   }
-  .bottom {
+  .team{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 3rem 2rem 2rem 8rem;
+  }
+  .team p:first-child{
+    font-size: 1.8rem;
+  }
+  .teamImg{
     display: flex;
-    padding-bottom: 4rem;
+  }
+  .teamImg img{
+    width: 40%;
+
+  }
+  .person1{
+    top: 0;   
+  }
+  .client-review{
+    font-size: 2rem;
+    margin: 4rem 2rem 2rem 12rem;
+  }
+  .client img{
+    width: 100px;
+    height: 100px;
+  }
+  .bottom {
+    top: 2rem;
+    bottom: 1rem;
+    margin: 0;
+    font-size: 1.5rem;
+    padding-bottom: 0;
+  }
+  .bottom  nav, .social{
+    margin-left: 8rem;
   }
   .credit {
-    position: relative;
-    top: 13rem;
-    right: 50%;
-    width: 50%;
+    margin-top: 80px;
+  }
+  .join .form button{
+    left: 0rem;
+  }
+  .join .form label{
+    width: 60%;
   }
 }
