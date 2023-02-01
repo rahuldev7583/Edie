@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#heading {
+  margin: 10px 0 0 10px;
+}
+#menu {
+  display: none;
+  height: 100vh;
+  padding: 0 0 0 7.5rem;
+}
+#menu nav {
+}
+#menu li {
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+}
+#menu li:hover {
+  background-color: lightgray;
+}
+.menu-icon {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+#close {
+  position: absolute;
+  top: 2.8rem;
+  right: 5rem;
+}
+.header {
+  width: 80%;
+  height: 70vh;
+  text-align: left;
+  padding-left: 40px;
+}
+.header p:first-child {
+  color: #2d9cdb;
+}
+.header p:last-of-type {
+  font-size: 1.2rem;
+}
+.header img {
+  width: 120%;
+  height: 25%;
+  margin: 20px 0 0 -32px;
+  border-radius: 20px;
+}
+h3 {
+  font-size: 1.6em;
+  font-weight: 400;
+}
+.header-text {
+  margin-top: 25px;
+}
+.head3 {
+  width: 50vw;
+}
+
+.form {
+  margin-top: 30px;
+}
+.form input {
+  font-size: 1.2rem;
+  width: 95%;
+  padding: 10px 0 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  margin-top: 20px;
+}
+.form button {
+  font-size: 1.3rem;
+  border: none;
+  background-color: #2d9cdb;
+  border-radius: 10px;
+  height: 40px;
+  width: 70px;
+  color: white;
+  position: relative;
+  left: 13.85rem;
+  bottom: 2.6rem;
+}
+.services {
+  width: 75%;
+  margin: 10px 0 0 40px;
+  display: flex;
+  flex-direction: column;
+}
+.services-head {
+  width: 75%;
+  margin: 100px 0 0 40px;
+  font-size: 1.8em;
+  font-weight: 400;
+}
+.icon {
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.ui-ux,
+.front-end,
+.back-end {
+  margin-top: 40px;
+}
+.service-heading,
+.service-text,
+.start {
+  margin-top: 20px;
+}
+.service-text {
+  font-size: 0.9rem;
+}
+.ui-ux .icon {
+  background-color: #2d9cdb;
+}
+.front-end .icon {
+  background-color: #27ae60;
+}
+.back-end .icon {
+  background-color: #eb5757;
+}
+.demo {
+  width: 75%;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.demo img {
+  width: 125%;
+  margin: 20px 0 0 -10px;
+  border-radius: 20px;
+}
+.demo a {
+  color: #2d9cdb;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.start {
+  border: none;
+  height: 35px;
+  width: 120px;
+  font-size: 1rem;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  color: black;
+}
+.start:hover {
+  color: white;
+  background-color: #2d9cdb;
+}
+.team {
+  width: 75%;
+  margin: 40px 0 0 40px;
+}
+.team p:first-child {
+  color: #eb5757;
+}
+.team p {
+  margin-top: 2rem;
+}
+.team h3 {
+  font-size: 1.9em;
+  margin-top: 2rem;
+}
+.teamImg {
+  width: 100%;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.teamImg img {
+  border-radius: 10px;
+  width: 90%;
+}
+.person1 {
+  position: relative;
+  top: 4rem;
+}
+.person3 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.client-review {
+  width: 75%;
+  margin: 30px 0 0 40px;
+}
+.client img {
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.client {
+  display: flex;
+}
+.client-detail {
+  position: relative;
+  top: 2rem;
+  margin-left: 20px;
+}
+.client-review h4,
+.client-detail h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.client p {
+  color: gray;
+  margin-top: 10px;
+}
+.bottom {
+  background-color: #100e1d;
+  color: white;
+  margin-top: 50px;
+  position: relative;
+  bottom: 0;
+}
+.bottom li {
+  margin: 10px 10px;
+}
+.bottom nav {
+  padding-top: 20px;
+  margin: 0 0 0 30px;
+}
+.bottom a {
+  color: white;
+}
+#twitter {
+  position: relative;
+  top: 2px;
+}
+.join,
+.social {
+  margin: 30px 0 0 40px;
+  width: 75%;
+}
+.join .form button {
+  left: 12.8rem;
+}
+.credit {
+  padding-bottom: 2rem;
+  text-align: center;
+}
+.credit a {
+  color: white;
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  #heading {
+    font-size: 2.5rem;
+    margin: 1rem 0 0 2.5rem;
+  }
+  #menu {
+    display: inline;
+    font-size: 2rem;
+  }
+  #menu nav {
+    display: flex;
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+  }
+  #menu li {
+    margin: 0 25px 0 0;
+  }
+  #menuIcon,
+  #close {
+    display: none;
+  }
+  .header {
+    height: 90vh;
+    width: 80%;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .header img {
+    width: 110%;
+    height: 50%;
+    margin-left: 3rem;
+  }
+  .header-text {
+    margin: 10px;
+  }
+  .header p:last-of-type {
+    font-size: 1.5rem;
+    margin-left: 4rem;
+  }
+  .form {
+    display: flex;
+    margin: 1.5rem 0 0 5rem;
+    font-size: 1.5rem;
+  }
+  .form input {
+    width: 60%;
+    margin: 0 0 0 10rem;
+    padding: 15px;
+    font-size: 1.3rem;
+  }
+  .form button {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 0 20px;
+    padding: 10px;
+    font-size: 1.5rem;
+    height: 60px;
+    width: 100px;
+  }
+  .services {
+    flex-direction: row;
+    height: 30%;
+    width: 80%;
+  }
+  .demo {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .demo img {
+    width: 100%;
+  }
+  .smarthome,
+  .booking {
+    margin-top: 4rem;
+  }
+  .onboard,
+  .juice {
+    margin-left: 2rem;
+  }
+  .bottom {
+    display: flex;
+    padding-bottom: 4rem;
+  }
+  .credit {
+    position: relative;
+    top: 13rem;
+    right: 50%;
+    width: 50%;
+  }
+}
